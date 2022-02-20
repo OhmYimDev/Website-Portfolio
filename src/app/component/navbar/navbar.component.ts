@@ -31,18 +31,14 @@ export class NavbarComponent implements OnInit {
       headerHamMenuBtn.classList.add('d-none')
       headerHamMenuClosebtn.classList.remove('d-none')
     }
+
+    for (let i = 0; i < headerSmallMenuLinks.length; i++) {
+      headerSmallMenuLinks[i].addEventListener('click', () => {
+        smallMenu.classList.remove('header__sm-menu--active')
+        headerHamMenuBtn.classList.remove('d-none')
+        headerHamMenuClosebtn.classList.add('d-none')
+    })
   }
 
-  // onSmallmenuClick() {
-  //   const headerSmallMenuLinks = this.el.nativeElement.querySelectorAll('.header__sm-menu-link');
-  //   for (let i = 0; i < headerSmallMenuLinks.length; i++) {
-  //     headerSmallMenuLinks[i].addEventListener('click', () => {
-  //       smallMenu.classList.remove('header__sm-menu--active')
-  //       headerHamMenuBtn.classList.remove('d-none')
-  //       headerHamMenuCloseBtn.classList.add('d-none')
-  //   }
-  // }
-
-  
-
+  }
 }
