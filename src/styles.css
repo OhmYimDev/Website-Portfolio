@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -187,6 +188,14 @@ a:focus {
     background: #001929;
     font-size: 1.6rem;
     color: #e8b54f;
+}
+.btn--theme-inv {
+    color: #000;
+    background: #fff;
+    border: 2px solid #e8b54f;
+    box-shadow: none;
+    padding: calc(1.5rem - 2px) calc(5rem - 2px);
+    font-size: 1.6rem;
 }
 
 /* --------------------------------********************------------------------ */
@@ -510,9 +519,16 @@ header {
 
 .projects__row-img-cont {
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 .projects__row-img {
     width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.projects__row-img_1 {
+    width: 30rem;
     display: block;
     object-fit: cover;
 }
@@ -620,6 +636,11 @@ header {
 }
 
 /* -------------------------- Footer ---------------------------- */
+footer {
+    position: sticky;
+    top: 100%;
+}
+
 .main-footer {
     background: #000;
     color: #fff;
