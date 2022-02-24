@@ -9,6 +9,7 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { Project2Component } from './component/project2/project2.component';
 import { Project3Component } from './component/project3/project3.component';
+import { Project4Component } from './component/project4/project4.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { Project3Component } from './component/project3/project3.component';
     FooterComponent,
     Project2Component,
     Project3Component,
+    Project4Component,
   ],
   imports: [
     BrowserModule,
