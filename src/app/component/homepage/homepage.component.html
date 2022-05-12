@@ -3,9 +3,12 @@
 <!--------------------------- header ------------------------------>
 <section class="home-hero">
     <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is <br> <span class="text__fullname">Phongphan Dechwongya</span> </h1>
+        <h1 class="heading-primary">
+            Hey, My name is <br> 
+            <span class="text__fullname">Phongphan Dechwongya</span> 
+        </h1>
         <div class="home-hero__info">
-            <p class="text-primary">
+            <p class="text-primary text-white">
                 I design and code beautifully simple things, and I love what I do.
             </p>
         </div>
@@ -26,7 +29,7 @@
             </a>
         </div>
         <div class="home-hero__social">
-            <a target="_blank" href="https://www.instagram.com/ohmyenyen/" class="home-hero__social-icon-link bd-none">
+            <a target="_blank" href="https://www.instagram.com/_hardbearr/" class="home-hero__social-icon-link bd-none">
                 <img src="assets/png/instagram-icon.png" alt="icon" class="home-hero__social-icon">
             </a>
         </div>
@@ -53,15 +56,25 @@
                         Hey! It's
                         <strong>Phongphan Dechwongya</strong>
                         and I'm a <strong> Front-End Web Developer </strong> 
-                        , and learn about technology and web design,  
+                        , and learned about technology and web design,  
                         <strong> I think the best way to learn is to do front-end developer 
                         projects and learn along the way.</strong>
                     </p>
                     <p class="about__content-details-para">
-                        I have experience doing small projects like cloning a website with html css javascript, 
-                        building a mobile application with ionic framework, 
-                        building a crud system with php and sql for stock management 
-                        which I am responsible, etc.                 
+                        I have started learning to build a website with html css javascript, 
+                        then learned how to make a responsive website with media queries,
+                        and started learning to use the bootstrap framework to make building 
+                        a website easier, then I got Learned javascript seriously from Codecademy 
+                        course such as data type, variables, conditionals, functions, scopes, 
+                        arrays, loops, objects, etc. And that made me learn more English. 
+                        Then I learned to use front-end frameworks like angular, but what I'm 
+                        interested in and studying now is React and I've also learned from Codecademy 
+                        courses like JSX, component, props, state. , lifecycle methods, hooks, etc. and 
+                        I learned by creating a project with react, for example, react-income-expense 
+                        project that takes user income and expense data, processes it and provides a 
+                        summary of account information, react-CRUD project to fetch data from api and 
+                        bring data to display as table with MUI material and able to add, edit, delete 
+                        displayed data etc.                   
                     </p>
                 </div>
                 <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">
@@ -76,12 +89,12 @@
                     <div class="skills__skill">HTML</div>
                     <div class="skills__skill">CSS</div>
                     <div class="skills__skill">Javascript</div>
+                    <div class="skills__skill">Bootstrap</div>
                     <div class="skills__skill">PHP</div>
                     <div class="skills__skill">SQL</div>
                     <div class="skills__skill">Angular</div>
-                    <div class="skills__skill">IONIC</div>
-                    <div class="skills__skill">Bootstrap</div>
-                    <div class="skills__skill">Wordpress</div>
+                    <div class="skills__skill">React</div>
+                    <div class="skills__skill">Ionic</div>
                     <div class="skills__skill">Github</div>
                 </div>
             </div>
@@ -117,23 +130,23 @@
                         The application displays information about tourist attractions in Chiang Mai. 
                         Ranking the attractions, attraction review, tourist map, etc.                    
                     </p>
-                    <a routerLink="project1" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    <a routerLink="attraction-paper" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
                 </div>
             </div>
 
             <!-------------------- Barfery Days --------------------->
             <div class="projects__row">
                 <div class="projects__row-img-cont">
-                    <img src="assets/images/project_2/table.jpg" 
+                    <img src="assets/images/project_2/homePage.jpg" 
                     alt="Sortware Screenshot" 
-                    class="projects__row-img" loading="lazy">
+                    class="projects__row-img" loading="lazy" style="max-width: 400px;">
                 </div>
                 <div class="projects__row-content">
                     <h3 class="projects__row-content-title">Barfery days</h3>
                     <p class="projects__row-content-desc">
                         Barfery Days is a website I made just for fun. and actually use it in Barfery Days Shop.  
                     </p>
-                    <a  routerLink="project2" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    <a  routerLink="braferydays" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
                 </div>
             </div>
 
@@ -149,10 +162,11 @@
                     <p class="projects__row-content-desc">
                         Starbucks landing page clone is my case study. build the homepage of Starbucks.com from 
                         scratch with HTML, CSS and a bit of JavaScript.</p>
-                    <a routerLink="project3" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    <a routerLink="starbucks" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
                 </div>
             </div>
 
+            <!-------------------- Portfolio Website --------------------->
             <div class="projects__row">
                 <div class="projects__row-img-cont">
                     <img src="assets/images/project_4/page1.jpg" 
@@ -164,9 +178,62 @@
                     <p class="projects__row-content-desc">
                         This project is to create a website using angular framework.                    
                     </p>
-                    <a routerLink="project4" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    <a routerLink="portfolio" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
                 </div>
             </div>
+
+            <!-------------------- React income expense --------------------->
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <img src="assets/images/project_5/page_1.jpg" 
+                    alt="Sortware Screenshot" 
+                    class="projects__row-img me-4" loading="lazy" style="max-width: 300px;">
+                    <img src="assets/images/project_5/page_2.jpg" 
+                    alt="Sortware Screenshot" 
+                    class="projects__row-img" loading="lazy" style="max-width: 300px;">
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">React - income - expense</h3>
+                    <p class="projects__row-content-desc"> 
+                        Create a web application to calculate income and expenses with React framework.                   
+                    </p>
+                    <a routerLink="react-income-expense" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                </div>
+            </div>
+
+            <!-------------------- Simple Website with React & Bootstrap --------------------->
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <img src="assets/images/project_6/page_1.jpg" 
+                    alt="Sortware Screenshot" 
+                    class="projects__row-img me-4" loading="lazy">
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Simple Website with React & Bootstrap</h3>
+                    <p class="projects__row-content-desc"> 
+                        Simple website with React & Bootstrap. <br>
+                        <strong>Library</strong> : react-particles-js, react-typed .                    
+                    </p>
+                    <a routerLink="simple-website-react-bootstrap" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                </div>
+            </div>
+
+            <!-------------------- React-CRUD --------------------->
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <img src="assets/images/project_7/page_1.jpg" 
+                    alt="Sortware Screenshot" 
+                    class="projects__row-img me-4" loading="lazy" style="width: 90%;">
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">React-CRUD</h3>
+                    <p class="projects__row-content-desc"> 
+                        Practice using React framework with CRUD-APP-API.                    
+                    </p>
+                    <a routerLink="react-crud" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>

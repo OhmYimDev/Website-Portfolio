@@ -61,14 +61,31 @@
     width: 100%;
     margin-bottom: 2rem;
 }
+.project-details__showcase-img-cont_row-2 {
+    width: 100%;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
 
 .project-details__showcase-img {
-    max-width: 300px;
     width: 100%;
     border-radius: 15px;
 }
+.project-details__showcase-img2 {
+    width: 100%;
+    margin-top: -4px;
+}
+.project-details__showcase-img3 {
+    width: 100%;
+    margin-top: -5px;
+}
+
 .mr-none {
     margin-right: 0;
+}
+.mb {
+    margin-bottom: 3rem;
 }
 
 
