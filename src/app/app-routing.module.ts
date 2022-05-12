@@ -8,6 +8,7 @@ import { Project4Component } from './component/project4/project4.component';
 import { Project5Component } from './component/project5/project5.component';
 import { Project6Component } from './component/project6/project6.component';
 import { Project7Component } from './component/project7/project7.component';
+import { Project8Component } from './component/project8/project8.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'portfolio', component: Project4Component },
   { path: 'react-income-expense', component: Project5Component },
   { path: 'simple-website-react-bootstrap', component: Project6Component },
-  { path: 'react-crud', component: Project7Component }
+  { path: 'react-crud', component: Project7Component },
+  { path: 'react-datatable-movable', component: Project8Component }
 ];
 
 @NgModule({
