@@ -7,9 +7,9 @@
     font-family: 'Source Sans Pro', sans-serif !important;
 }
 
-
 html {
     font-size: 62.5%;
+    letter-spacing: .8px;
     scroll-behavior: smooth; }
     @media only screen and (max-width: 75em) {
       html {
@@ -28,6 +28,10 @@ body {
     font-family: sans-serif;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.disclaimer {
+    display: none;
 }
 
 a {
@@ -441,6 +445,10 @@ header {
 }
 
 /* ------------------- about ------------------------- */
+.about strong {
+    color:#e8b54f;
+}
+
 .sec-pad {
     padding: 12rem 0;
 }
@@ -451,7 +459,8 @@ header {
 }
 
 .about {
-    background: #fafafa;
+    background: #0e2a3d;
+    border-radius: 0 0 60px 60px;
 }
 
 .about__content {
@@ -466,10 +475,19 @@ header {
     }
 }
 
-.about__content-title {
+.about .heading-sec__main {
+    color: #e8b54f;
+}
+
+.about .heading-sec__sub {
+    color: #fff;
+}
+
+.about .about__content-title {
     font-weight: 700;
     font-size: 2.8rem;
     margin-bottom: 3rem;
+    color: #e8b54f;
 }
 @media only screen and (max-width: 37.5em) {
     .about__content-title {
@@ -477,9 +495,9 @@ header {
     }
 }
 
-.about__content-details-para {
+.about .about__content-details-para {
     font-size: 1.8rem;
-    color: #000;
+    color: #fff;
     max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 1.7rem;
@@ -501,6 +519,13 @@ header {
 }
 
 /* --------------------------- Projects -------------------------- */
+.card {
+    padding: 5rem;
+    background-color: #0e2a3d;
+    border: none;
+    border-radius: 20px;
+}
+
 .projects__row {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -560,6 +585,7 @@ header {
     font-weight: 700;
     font-size: 2.8rem;
     margin-bottom: 2rem;
+    color: #e8b54f;
 }
 @media only screen and (max-widht: 56.25em) {
     .projects__row-content-title {
@@ -569,7 +595,7 @@ header {
 
 .projects__row-content-desc {
     font-size: 1.8rem;
-    color: #000;
+    color: #fff;
     max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 3rem;

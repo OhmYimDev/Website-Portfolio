@@ -1,7 +1,7 @@
 
 
 <!--------------------------- header ------------------------------>
-<section class="home-hero">
+<section class="home-hero shadow">
     <div class="home-hero__content">
         <h1 class="heading-primary">
             Hey, My name is <br> 
@@ -13,7 +13,7 @@
             </p>
         </div>
         <div class="home-hero__cta">
-            <a href="#projects" class="btn btn--bg">Projects</a>
+            <a href="#projects" class="btn btn--bg shadow">Projects</a>
         </div>
     </div>
     <!-- socials -->
@@ -37,7 +37,7 @@
 </section>
 
 <!--------------------------- about ------------------------------>
-<section id="about" class="about sec-pad" >
+<section id="about" class="about sec-pad shadow" >
     <div class="main-container">
         <h2 class="heading-sec__mb-med">
             <span class="heading-sec__main">About Me</span>
@@ -57,22 +57,21 @@
                         <strong>Phongphan Dechwongya</strong>
                         and I'm a <strong> Front-End Web Developer </strong> 
                         , and learned about technology and web design,  
-                        <strong> I think the best way to learn is to do front-end developer 
-                        projects and learn along the way.</strong>
+                        <strong> I think the best way to learn is to do and learn along the way.</strong>
                     </p>
                     <p class="about__content-details-para">
-                        I have started learning to build a website with html css javascript, 
-                        then learned how to make a responsive website with media queries,
-                        and started learning to use the bootstrap framework to make building 
+                        I have started learning to build a website with <strong>HTML CSS JavaScript</strong>, 
+                        then learned how to make a <strong>responsive website</strong> with media queries,
+                        and started learning to use the <strong>bootstrap framework</strong> to make building 
                         a website easier, then I got Learned javascript seriously from Codecademy 
                         course such as data type, variables, conditionals, functions, scopes, 
                         arrays, loops, objects, etc. And that made me learn more English. 
-                        Then I learned to use front-end frameworks like angular, but what I'm 
-                        interested in and studying now is React and I've also learned from Codecademy 
-                        courses like JSX, component, props, state. , lifecycle methods, hooks, etc. and 
-                        I learned by creating a project with react, for example, react-income-expense 
+                        Then I learned to use front-end frameworks like <strong>Angular</strong>, but what I'm 
+                        interested in and studying now is <strong>React</strong> and I've also learned from Codecademy 
+                        courses like JSX, component, props, state, lifecycle methods, hooks, etc. and 
+                        I learned by creating a project with react, for example, React-income-expense 
                         project that takes user income and expense data, processes it and provides a 
-                        summary of account information, react-CRUD project to fetch data from api and 
+                        summary of account information, React-CRUD project to fetch data from api and 
                         bring data to display as table with MUI material and able to add, edit, delete 
                         displayed data etc.                   
                     </p>
@@ -111,146 +110,154 @@
                 Here you will find some of the personal  projects that I created with each project containing its own case study.            </span>
         </h2>
 
-        <div class="projects__content">
+        <div class="projects__content d-flex flex-column gap-5">
 
             <!-------------------- Attractions papers --------------------->
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                    <img src="assets/images/project_1/attr_app.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img_1 mr" loading="lazy">
-                    <img src="assets/images/project_1/attr_app_2.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img_1" loading="lazy">
-                </div>
-                <div class="projects__row-content">
-                    <h3 class="projects__row-content-title">Attractions paper Mobile Application</h3>
-                    <p class="projects__row-content-desc">
-                        Paper Attractions is a mobile application that I created based on the Ionic framework. 
-                        The application displays information about tourist attractions in Chiang Mai. 
-                        Ranking the attractions, attraction review, tourist map, etc.                    
-                    </p>
-                    <a routerLink="attraction-paper" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
-                </div>
+            <div class="card shadow">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="assets/images/project_1/attr_app.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img_1 mr" loading="lazy">
+                        <img src="assets/images/project_1/attr_app_2.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img_1" loading="lazy">
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Mobile Application</h3>
+                        <p class="projects__row-content-desc">
+                            Paper Attractions is a mobile application that I created based on the Ionic framework. 
+                            The application displays information about tourist attractions in Chiang Mai. 
+                            Ranking the attractions, attraction review, tourist map, etc.                    
+                        </p>
+                        <a routerLink="attraction-paper" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    </div>
+                </div>    
             </div>
-
             <!-------------------- Barfery Days --------------------->
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                    <img src="assets/images/project_2/homePage.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img" loading="lazy" style="max-width: 400px;">
-                </div>
-                <div class="projects__row-content">
-                    <h3 class="projects__row-content-title">Barfery days</h3>
-                    <p class="projects__row-content-desc">
-                        Barfery Days is a website I made just for fun. and actually use it in Barfery Days Shop.  
-                    </p>
-                    <a  routerLink="braferydays" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
-                </div>
+            <div class="card shadow">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="assets/images/project_2/homePage.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img" loading="lazy" style="max-width: 400px;">
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Barfery days</h3>
+                        <p class="projects__row-content-desc">
+                            Barfery Days is a website I made just for fun. and actually use it in Barfery Days Shop.  
+                        </p>
+                        <a  routerLink="braferydays" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    </div>
+                </div>    
             </div>
-
             <!-------------------- Starbucks Landing Page Clone --------------------->
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                    <img src="assets/images/project_3/page_1.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img" loading="lazy">
+            <div class="card shadow">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="assets/images/project_3/page_1.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Starbucks Landing Page Clone</h3>
+                        <p class="projects__row-content-desc">
+                            Starbucks landing page clone is my case study. build the homepage of Starbucks.com from 
+                            scratch with HTML, CSS and a bit of JavaScript.</p>
+                        <a routerLink="starbucks" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    </div>
                 </div>
-                <div class="projects__row-content">
-                    <h3 class="projects__row-content-title">Starbucks Landing Page Clone</h3>
-                    <p class="projects__row-content-desc">
-                        Starbucks landing page clone is my case study. build the homepage of Starbucks.com from 
-                        scratch with HTML, CSS and a bit of JavaScript.</p>
-                    <a routerLink="starbucks" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
-                </div>
-            </div>
-
+            </div>    
             <!-------------------- Portfolio Website --------------------->
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                    <img src="assets/images/project_4/page1.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img" loading="lazy">
-                </div>
-                <div class="projects__row-content">
-                    <h3 class="projects__row-content-title">Website Portfolio With Angular</h3>
-                    <p class="projects__row-content-desc">
-                        This project is to create a website using angular framework.                    
-                    </p>
-                    <a routerLink="portfolio" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
-                </div>
+            <div class="card shadow">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="assets/images/project_4/page1.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Website Portfolio With Angular</h3>
+                        <p class="projects__row-content-desc">
+                            This project is to create a website using angular framework.                    
+                        </p>
+                        <a routerLink="portfolio" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    </div>
+                </div>    
             </div>
-
             <!-------------------- React income expense --------------------->
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                    <img src="assets/images/project_5/page_1.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img me-4" loading="lazy" style="max-width: 300px;">
-                    <img src="assets/images/project_5/page_2.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img" loading="lazy" style="max-width: 300px;">
-                </div>
-                <div class="projects__row-content">
-                    <h3 class="projects__row-content-title">React - income - expense</h3>
-                    <p class="projects__row-content-desc"> 
-                        Create a web application to calculate income and expenses with React framework.                   
-                    </p>
-                    <a routerLink="react-income-expense" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
-                </div>
+            <div class="card shadow">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="assets/images/project_5/page_1.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img me-4" loading="lazy" style="max-width: 300px; width: 100%;">
+                        <img src="assets/images/project_5/page_2.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img" loading="lazy" style="max-width: 300px; width: 100%;">
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">React - income - expense</h3>
+                        <p class="projects__row-content-desc"> 
+                            Create a web application to calculate income and expenses with React framework.                   
+                        </p>
+                        <a routerLink="react-income-expense" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    </div>
+                </div>    
             </div>
-
             <!-------------------- Simple Website with React & Bootstrap --------------------->
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                    <img src="assets/images/project_6/page_1.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img me-4" loading="lazy">
-                </div>
-                <div class="projects__row-content">
-                    <h3 class="projects__row-content-title">Simple Website with React & Bootstrap</h3>
-                    <p class="projects__row-content-desc"> 
-                        Simple website with React & Bootstrap. <br>
-                        <strong>Library</strong> : react-particles-js, react-typed .                    
-                    </p>
-                    <a routerLink="simple-website-react-bootstrap" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
-                </div>
+            <div class="card shadow">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="assets/images/project_6/page_1.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img me-4" loading="lazy">
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Simple Website with React & Bootstrap</h3>
+                        <p class="projects__row-content-desc"> 
+                            Simple website with React & Bootstrap. <br>
+                            <strong>Library</strong> : react-particles-js, react-typed .                    
+                        </p>
+                        <a routerLink="simple-website-react-bootstrap" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    </div>
+                </div>    
             </div>
-
             <!-------------------- React-CRUD --------------------->
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                    <img src="assets/images/project_7/page_1.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img me-4" loading="lazy" style="width: 90%;">
-                </div>
-                <div class="projects__row-content">
-                    <h3 class="projects__row-content-title">React-CRUD</h3>
-                    <p class="projects__row-content-desc"> 
-                        Practice using React framework with CRUD-APP-API.                    
-                    </p>
-                    <a routerLink="react-crud" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
-                </div>
+            <div class="card shadow">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="assets/images/project_7/page_1.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img me-4" loading="lazy" style="width: 90%;">
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">React-CRUD</h3>
+                        <p class="projects__row-content-desc"> 
+                            Practice using React framework with CRUD-APP-API.                    
+                        </p>
+                        <a routerLink="react-crud" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    </div>
+                </div>    
             </div>
-
             <!-------------------- React Data Table --------------------->
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                    <img src="assets/images/project_8/page_1.jpg" 
-                    alt="Sortware Screenshot" 
-                    class="projects__row-img me-4" loading="lazy" >
-                </div>
-                <div class="projects__row-content">
-                    <h3 class="projects__row-content-title">React Data Table & Pagination</h3>
-                    <p class="projects__row-content-desc"> 
-                        Using mock data in React project with React Table, 
-                        and customize column display by drag and drop using React Movable.             
-                    </p>
-                    <a routerLink="react-datatable-movable" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
-                </div>
+            <div class="card shadow">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="assets/images/project_8/page_1.jpg" 
+                        alt="Sortware Screenshot" 
+                        class="projects__row-img me-4" loading="lazy" >
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">React Data Table & Pagination</h3>
+                        <p class="projects__row-content-desc"> 
+                            Using mock data in React project with React Table, 
+                            and customize column display by drag and drop using React Movable.             
+                        </p>
+                        <a routerLink="react-datatable-movable" class="btn btn--med btn--theme dynamicBgClr">Case Study</a>
+                    </div>
+                </div>    
             </div>
-
         </div>
     </div>
 </section>

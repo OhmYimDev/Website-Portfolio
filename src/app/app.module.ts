@@ -15,6 +15,7 @@ import { Project6Component } from './component/project6/project6.component';
 import { Project7Component } from './component/project7/project7.component';
 import { Project8Component } from './component/project8/project8.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
